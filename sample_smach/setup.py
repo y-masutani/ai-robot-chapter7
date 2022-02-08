@@ -26,6 +26,8 @@ setup(
         'console_scripts': [
             'sample=sample_smach.main_sm:main',
             'sample_1=sample_smach.sample_sm:main',
+            'sample_2=sample_smach.sample_sm2:main',
+            'sample_3=sample_smach.sample_sm3:main',
             'manipulation=sample_smach.manipulation_node:main',
             'navigation=sample_smach.navigation_node:main',
             'vision=sample_smach.vision_node:main',
