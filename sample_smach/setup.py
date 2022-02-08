@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'sample=sample_smach.main_sm:main',
+            'main_sm2=sample_smach.main_sm2:main',
             'sample_1=sample_smach.sample_sm:main',
             'sample_2=sample_smach.sample_sm2:main',
             'sample_3=sample_smach.sample_sm3:main',
